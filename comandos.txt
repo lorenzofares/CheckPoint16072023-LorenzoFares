@@ -42,3 +42,7 @@
   370  git push main
   371  git push origin main
   372  history 20
+  373  git add .
+  374  git commit -m "Commit 05 de LorenzoFares"
+  375  git push origin main
+  376  history 10
