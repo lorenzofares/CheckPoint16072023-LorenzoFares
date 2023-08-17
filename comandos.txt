@@ -1,0 +1,44 @@
+  366  mkdir Checkpoint16072023-LorenzoFares
+  367  cd Checkpoint16072023-LorenzoFares
+  368  git init
+  369  git config user.name "lorenzofares"
+  370  git config user.email "lolofaresestudio@gmail.com"
+  371  git remote add origin https://github.com/lorenzofares/CheckPoint16072023-LorenzoFares.git
+  372  touch main.js
+  373  touch index.html
+  374  git add .
+  376  git commit -m "Commit 01 de LorenzoFares"
+  379  git push -u origin main
+  384  git branch feature
+  387  cd CheckPoint16072023-LorenzoFares
+  388  git checkout feature
+  389  mkdir Hardware
+  390  mkdir Software
+  391  mkdir SeguridadInformatica
+  392  cd Hardware
+  393  touch resumen.txt
+  394  cd .
+  395  cd ..
+  396  cd Software
+  397  touch resumen.txt
+  398  cd ..
+  399  cd SeguridadInformatica
+  400  touch resumen.txt
+  401  cd ..
+  402  git push feature
+  403  git add .
+  404  git commit -m "Commit 02 de LorenzoFares"
+  406  git push origin feature
+  407  git checkout main
+  408  mv main.js "resumenHardware.txt"
+  409  mv index.html "resumenSoftware.txt"
+  410  history 50
+  364  git checkout main
+  365  git add .
+  366  git commit -m "Commit 03 de LorenzoFares"
+  367  touch comandos.txt
+  368  git add .
+  369  git commit -m "Commit 04 de LorenzoFares"
+  370  git push main
+  371  git push origin main
+  372  history 20
